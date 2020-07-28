@@ -1,0 +1,16 @@
+#Lesson 02 - Part 01
+#List
+
+#Declaring a List
+numberList = [2, 4, 6, 8]
+nameList = ["Theo", "Michelle", "Nate"]
+theoList = ["Theo", 2000, "October", True]
+print(numberList)
+
+#Accessing Lis Element
+print(nameList[0])
+
+subjectList = ["English", "Math", "Science", "IT", "Music"]
+print(subjectList[-1])
+print(subjectList[1:4])
+print(subjectList[:])
