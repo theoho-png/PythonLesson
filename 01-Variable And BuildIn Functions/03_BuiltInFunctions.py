@@ -13,6 +13,10 @@ age = int(input("Please enter your age."))
 #!!!The deafult data type for input is String.
 #Therefore, we need to convert the age to int 
 
+#Checking variable data type
+#type(myVar)
+print("The age you just enter is a " + str(type(age)))
+
 #-------------------------------------#
 
 currentYear = 2020
