@@ -18,6 +18,17 @@ subjectList[3].append("PE") #Method 1: append
 subjectList[3].insert(2,"Physics") #Method 1: insert
 print(subjectList)
 
+#-------------------------------------#
+
+#Adding a List into a List
+languageStudy = ["English", "Math"]
+print(languageStudy)
+languageSubject = ["Chinese", "Japanese", "French", "Spanish"]
+languageStudy.insert(2, languageSubject)
+print(languageStudy)
+
+#-------------------------------------#
+
 #Deleting List Element
 print(subjectList[3].pop(3)) #Method 1: Pop
 print(subjectList)
