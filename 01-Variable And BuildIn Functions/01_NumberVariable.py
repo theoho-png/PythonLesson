@@ -21,13 +21,14 @@ print(nameList)
 #-------------------------------------#
 
 subjectList = ["English", "Math", "Science", "IT", "Music"]
+print(subjectList)
 
 #Deleting List Element
 print(subjectList.pop(1)) #Method 1: Pop
 print(subjectList)
 
-subjectList.remove("Science") #Method 2: Remove
+del subjectList[0] #Method 2: Del
 print(subjectList)
 
-del subjectList[0] #Method 3: Del
+subjectList.remove("Music") #Method 3: Remove
 print(subjectList)
